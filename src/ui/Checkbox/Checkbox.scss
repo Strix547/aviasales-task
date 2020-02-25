@@ -1,0 +1,25 @@
+@import '../../assets/styles/variables';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  font-family: 'OpenSans-Regular';
+  font-size: 13px;
+  &.checked .checkmark {
+    border-color: $blue;
+  }
+  .checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #9ABBCE;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+}

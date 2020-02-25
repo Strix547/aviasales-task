@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+  
+  .wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 754px;
+    margin-top: 50px;
+    .filter {
+      margin-right: 20px;
+    }
+  }
+}
